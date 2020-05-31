@@ -1,0 +1,22 @@
+
+{
+    "code":200,
+    "msg": "request suceesful!",
+    "data": [
+        {
+            "title":"專業狂吃",
+            "brief":"不管你給我多少東西,我都可以瞬間處理掉",
+            "tags":["食物清理者","永遠吃不飽","吃東西最有精神"],
+            "cover":"https://i.imgur.com/RoKfWBJ.png",
+            "id":1
+        },
+        {
+            "title":"專業撒嬌",
+            "brief":"不管你心情如何,一撒嬌你就心情好",
+            "tags":["撒嬌狂","超可愛"],
+            "cover":"https://i.imgur.com/KDUzG1b.png",
+            "id":2
+        }
+        
+    ]
+}
