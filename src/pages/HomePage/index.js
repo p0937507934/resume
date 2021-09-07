@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import styles from "./Home.module.scss";
 import WorkLists from "../../components/WorkLists";
 import worksData from "../works.json";
+import { Link } from "react-router-dom";
 
 export const HomePage = () => {
   const Q_A = {
@@ -36,9 +37,9 @@ export const HomePage = () => {
       </section>
 
       <div style={Q_A}>
-        <a style={section_style} href="/resume/works">
+        <Link style={section_style} to="/resume/works">
           點擊前往報名Q&A
-        </a>
+        </Link>
       </div>
     </div>
   );
