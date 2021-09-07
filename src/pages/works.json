@@ -4,19 +4,34 @@
     "msg": "request suceesful!",
     "data": [
         {
-            "title":"專業狂吃",
-            "brief":"不管你給我多少東西,我都可以瞬間處理掉",
-            "tags":["食物清理者","永遠吃不飽","吃東西最有精神"],
-            "cover":"https://i.imgur.com/RoKfWBJ.png",
+            "title":"Django",
+            "brief":"使用Django及Django rest framework開發Restful api",
+            "tags":["Backend framework"],
+            "cover":"https://codertw.com/wp-content/uploads/img/20yVyBz66L.jpg",
             "id":1
         },
         {
-            "title":"專業撒嬌",
-            "brief":"不管你心情如何,一撒嬌你就心情好",
-            "tags":["撒嬌狂","超可愛"],
-            "cover":"https://i.imgur.com/KDUzG1b.png",
+            "title":"Express",
+            "brief":"使用Express開發Restful api",
+            "tags":["Backend framework"],
+            "cover":"https://res.cloudinary.com/practicaldev/image/fetch/s--KkScstnJ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zojuy79lo3fn3qdt7g6p.png",
             "id":2
+        },
+        {
+            "title":"Docker",
+            "brief":"Docker及Docker-compose部屬容器",
+            "tags":["Devops"],
+            "cover":"https://i.imgur.com/v4cwWbY.png",
+            "id":3
+        },
+        {
+            "title":"React",
+            "brief":"使用React開發SPA",
+            "tags":["Frontend framework"],
+            "cover":"http://blog-assets.risingstack.com/2016/Jan/react_best_practices-1453211146748.png",
+            "id":4
         }
+        
         
     ]
 }

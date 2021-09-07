@@ -3,37 +3,43 @@ import styles from "./Home.module.scss";
 import WorkLists from "../../components/WorkLists";
 import worksData from "../works.json";
 
-
 export const HomePage = () => {
+  const Q_A = {
+    display:"flex",
+    alignItem:"center",
+    justifyContent:"center",
+    fontSize:"32px"
+  }
+  const section_style = {
+    color:"#faa"
+  }
   return (
     <div className={styles.wrap}>
       <section className={styles.brief}>
-        <img
-          width="600"
-          height="600"
-          alt="avatar"
-          src={require("../../assets/images/GT.jpg")}
-        ></img>
+        <img alt="avatar" src={require("../../assets/images/avatar.jpg")}></img>
         <h2>
-          <strong>綠茶 徐</strong>
+          <strong>徐仕勳</strong>
         </h2>
         <ul>
-          <li>吃</li>
-          <li>散步</li>
-          <li>睡</li>
+          <li>後端</li>
+          <li>前端</li>
+          <li>Devops</li>
         </ul>
-        <p>今年10幾歲</p>
-        <p>專長解決廚餘</p>
-        <p>專長討拍</p>
+        
       </section>
 
       <section className={styles.work}>
         <div className={styles.title}>
-          <h3>工作區域</h3>
-          <p>你可以找到更多</p>
+          <h3>Skills</h3>
         </div>
-        <WorkLists dataSource={worksData.data}/>
+        <WorkLists dataSource={worksData.data} />
       </section>
+
+      <div style={Q_A}>
+        <a style={section_style} href="/works">
+          點擊前往報名Q&A
+        </a>
+      </div>
     </div>
   );
 };

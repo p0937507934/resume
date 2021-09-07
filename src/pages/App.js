@@ -27,7 +27,7 @@ function App() {
                   location.pathname === "/works" ? styles.selected : null
                 }
               >
-                Works
+                Q&A
               </p>
             </Link>
           </div>
@@ -37,12 +37,12 @@ function App() {
       <section className={styles.section}>
         <Route path="/" exact component={HomePage}></Route>
         <Route path="/works" exact component={WorkPage}></Route>
-        <Route path="/works/:id" exact component={WorkPageDetail}></Route>
+        {/* <Route path="/works/:id" exact component={WorkPageDetail}></Route> */}
       </section>
 
       <footer className={styles.footer}>
         <p>
-          <b>Created in 2020</b>
+          <b>Created in 2021/09/07</b>
         </p>
       </footer>
     </div>
