@@ -16,12 +16,12 @@ function App() {
           </Link>
 
           <div className={styles.boxright}>
-            <Link to="/">
+            <Link to="/resume">
               <p className={location.pathname === "/resume" ? styles.selected : null}>
                 Home
               </p>
             </Link>
-            <Link to="works">
+            <Link to="/resume/works">
               <p
                 className={
                   location.pathname === "/resume/works" ? styles.selected : null
