@@ -11,7 +11,7 @@ function App() {
     <div className={styles.App}>
       <header className={styles.header}>
         <div className={styles.box}>
-          <Link to="/">
+          <Link to="/resume">
             <div className={styles.boxleft}>Resume</div>
           </Link>
 
@@ -35,11 +35,11 @@ function App() {
       </header>
 
       <section className={styles.section}>
-        {/* <BrowserRouter basename="/resume"> */}
+        <BrowserRouter basename="/resume">
         <Route path="/resume" exact component={HomePage}></Route>
         <Route path="/resume/works" exact component={WorkPage}></Route>
         {/* <Route path="/works/:id" exact component={WorkPageDetail}></Route> */}
-        {/* </BrowserRouter> */}
+        </BrowserRouter>
 
         
       </section>
