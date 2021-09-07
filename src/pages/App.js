@@ -17,14 +17,14 @@ function App() {
 
           <div className={styles.boxright}>
             <Link to="/">
-              <p className={location.pathname === "/" ? styles.selected : null}>
+              <p className={location.pathname === "/resume" ? styles.selected : null}>
                 Home
               </p>
             </Link>
             <Link to="works">
               <p
                 className={
-                  location.pathname === "/works" ? styles.selected : null
+                  location.pathname === "/resume/works" ? styles.selected : null
                 }
               >
                 Q&A
@@ -35,11 +35,11 @@ function App() {
       </header>
 
       <section className={styles.section}>
-        <BrowserRouter basename="/resume">
+        {/* <BrowserRouter basename="/resume"> */}
         <Route path="/resume" exact component={HomePage}></Route>
         <Route path="/resume/works" exact component={WorkPage}></Route>
         {/* <Route path="/works/:id" exact component={WorkPageDetail}></Route> */}
-        </BrowserRouter>
+        {/* </BrowserRouter> */}
 
         
       </section>
