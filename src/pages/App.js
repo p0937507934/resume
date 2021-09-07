@@ -36,8 +36,8 @@ function App() {
 
       <section className={styles.section}>
         <BrowserRouter basename="/resume">
-        <Route path="/" exact component={HomePage}></Route>
-        <Route path="/works" exact component={WorkPage}></Route>
+        <Route path="/resume" exact component={HomePage}></Route>
+        <Route path="/resume/works" exact component={WorkPage}></Route>
         {/* <Route path="/works/:id" exact component={WorkPageDetail}></Route> */}
         </BrowserRouter>
 

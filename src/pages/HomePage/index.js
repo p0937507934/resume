@@ -36,7 +36,7 @@ export const HomePage = () => {
       </section>
 
       <div style={Q_A}>
-        <a style={section_style} href="/works">
+        <a style={section_style} href="/resume/works">
           點擊前往報名Q&A
         </a>
       </div>
